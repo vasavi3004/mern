@@ -11,7 +11,7 @@ const Login = () => {
   const handleLogin = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post("https://mern-backend-lh4u.onrender.com/api/auth/login", {
+      const res = await axios.post("https://mern-qy2v.onrender.com/api/auth/login", {
         email,
         password,
       });
